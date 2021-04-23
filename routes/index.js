@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', author: 'Aimee Hernandez Mendoza ', appName:'ejemplo s10' });  //se tiene    que reiniciar el servidor 
+  res.render('index', { title: 'Express', author: 'Aimee Hernandez Mendoza ', appName:'ejemplo s10' , company:'Awsome Software' });  //se tiene    que reiniciar el servidor 
   //appName en layout.hbs se tiene que crear primero 
 });
 /*agregando nueva ruta        http://localhost:3000/greeting    */
